@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NGOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="collectreq">
+    <Key>
+      <PropertyRef Name="collectid" />
+    </Key>
+    <Property Name="collectid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="restname" Type="varchar" MaxLength="50" />
+    <Property Name="food name" Type="varchar" MaxLength="50" />
+    <Property Name="time" Type="varchar" MaxLength="50" />
+    <Property Name="location" Type="varchar" MaxLength="50" />
+    <Property Name="empid" Type="int" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="emp">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="age" Type="varchar" MaxLength="50" />
+    <Property Name="location" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_collectreq_collectreq">
+    <End Role="emp" Type="Self.emp" Multiplicity="0..1" />
+    <End Role="collectreq" Type="Self.collectreq" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="emp">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="collectreq">
+        <PropertyRef Name="empid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NGOModelStoreContainer">
+    <EntitySet Name="collectreq" EntityType="Self.collectreq" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="emp" EntityType="Self.emp" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_collectreq_collectreq" Association="Self.FK_collectreq_collectreq">
+      <End Role="emp" EntitySet="emp" />
+      <End Role="collectreq" EntitySet="collectreq" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NGOModelStoreContainer" CdmEntityContainer="NGOEntities6">
+    <EntitySetMapping Name="collectreqs">
+      <EntityTypeMapping TypeName="NGOModel.collectreq">
+        <MappingFragment StoreEntitySet="collectreq">
+          <ScalarProperty Name="collectid" ColumnName="collectid" />
+          <ScalarProperty Name="restname" ColumnName="restname" />
+          <ScalarProperty Name="food_name" ColumnName="food name" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emps">
+      <EntityTypeMapping TypeName="NGOModel.emp">
+        <MappingFragment StoreEntitySet="emp">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="location" ColumnName="location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
