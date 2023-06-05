@@ -8,7 +8,7 @@ namespace DAL.Models
 {
     public class Cars
     {
-        public int carId { get; set; }
+        public int Id { get; set; }
         public string modelName { get; set; }
         public string brandName { get; set; }
         public DateTime published { get; set; }
@@ -17,6 +17,7 @@ namespace DAL.Models
         public string scale { get; set; }
 
         public virtual ICollection<User> Users { get; set; }
+
         public Cars()
         {
             this.Users = new HashSet<User>(); // this hashset is to ommit the duplicate data 

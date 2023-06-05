@@ -8,13 +8,14 @@ namespace DAL.Models
 {
     public class User
     {
-        public int uid { get; set; }
+        public int Id { get; set; }
         public string uname { get; set; }
         public string address { get; set; }
         public string phone { get; set; }
         public int totalCar { get; set; }
 
         public virtual ICollection<Cars> Cars { get; set; }
+
 
         public User()
         {

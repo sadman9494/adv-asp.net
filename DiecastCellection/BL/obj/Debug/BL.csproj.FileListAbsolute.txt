@@ -1,0 +1,12 @@
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\BL.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\BL.pdb
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\DAL.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\EntityFramework.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\DAL.pdb
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\DAL.dll.config
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\bin\Debug\EntityFramework.xml
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\obj\Debug\BL.csproj.CopyComplete
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\obj\Debug\BL.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\BL\obj\Debug\BL.pdb

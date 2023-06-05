@@ -1,0 +1,14 @@
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\DAL.dll.config
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\DAL.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\DAL.pdb
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\EntityFramework.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\EntityFramework.xml
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.dll
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.pdb
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.Migrations.initDB.resources
+E:\AIUB\SM 9\c#\.net project final doc\adv-asp.net\DiecastCellection\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
